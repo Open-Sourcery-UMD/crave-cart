@@ -1,0 +1,1 @@
+// Background script for the browser extension will go here
