@@ -1,14 +1,19 @@
 // Background script for the browser extension will go here
 
 
-const sidebar = document.getElementById('sidebar');
-const menubtn = document.getElementById('menubtn');
+const menu = document.getElementById('menu');
+const openmenu = document.getElementById('openmenu');
 const closemenu = document.getElementById('closemenu');
+const addRecipe = document.getElementById('addRecipe');
 
-menubtn.addEventListener('click', () => {
-    sidebar.style.left = '0';
+openmenu.addEventListener('click', () => {
+    menu.style.left = '0';
 });
 
 closemenu.addEventListener('click', () => {
-    sidebar.style.left = '-250px';
+    menu.style.left = '-250px';
+});
+
+addRecipe.addEventListener('click', () => {
+    window.location.href = 'addRecipe.html';
 });
