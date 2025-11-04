@@ -71,6 +71,11 @@ a:active {
 }
 
 .homeButtons button{
+    color: white;
+    font-size: 20px;
+    background-color: #a4b465;
+    border: 2px #626f47 solid;
+    border-radius: 5px;
     width: 400px;
     height: 50px;
 }
