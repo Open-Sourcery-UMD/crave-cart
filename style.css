@@ -12,6 +12,10 @@ h1{
     color: #a4b465;
 }
 
+h2{
+    color: #a4b465;
+}
+
 #search{
     width: 500px;
     height: 20px;
@@ -90,7 +94,9 @@ a:active {
     height: 50px;
 }
 
-
+#home{
+    width: 30px;
+}
 
 
 
