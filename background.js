@@ -1,6 +1,6 @@
 // Background script for the browser extension will go here
 
-
+//home page
 const menu = document.getElementById('menu');
 const openmenu = document.getElementById('openmenu');
 const closemenu = document.getElementById('closemenu');
