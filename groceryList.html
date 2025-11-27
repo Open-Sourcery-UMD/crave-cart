@@ -11,13 +11,18 @@
     <h1>Crave Cart</h1>
     <h2>Grocery list</h2>
     <div id="list">
-        <ul>
-            <li>item 1</li>
-            <li>item 2</li>
-        </ul>
+        <ul id="groceryList"></ul>
+        <form id="groceryForm">
+            <div id="inputs">
+                <input id="inputGrocery" type="text" placeholder="Add to the list..." required>
+                <input id="addBtn" type="submit" value="Add">
+                <button id="clearListBtn">Clear List</button>
+            </div>
+        </form>
     </div>
     <a href="home.html">
         <img id="home" src="home.png" alt="home icon">
     </a>
+    <script src="groceryList.js"></script>
 </body>
 </html>

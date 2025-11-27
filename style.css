@@ -99,7 +99,7 @@ a:active {
 }
 
 #list{
-    margin-left: 60px;
+     margin-left: 60px;
     margin-right: 60px;
     margin-bottom: 10px;
     padding-top: 10px;
@@ -109,4 +109,71 @@ a:active {
     height: 400px;
     text-align: left;
     font-size: 15px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#groceryList {
+    flex: 1;
+    overflow-y: auto;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#groceryList li {
+    margin: 6px 0;
+    font-size: 20px;
+}
+
+#inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+#inputGrocery {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 2px solid #f0bb78;
+}
+
+#addBtn {
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #a4b465;
+    color: white;
+    border: 2px solid #626f47;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+}
+
+#addBtn:hover {
+    background-color: #8fa24e;
+}
+
+#clearListBtn {
+    background-color: #f0bb78;
+    color: #41492f;
+    border: 2px solid #626f47;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+    height: 40px;
+}
+
+#clearListBtn:hover {
+    background-color: #e3aa63;
 }
